@@ -1,0 +1,30 @@
+{
+  "name": "memoroux",
+  "version": "1.0.0",
+  "description": "AsciiDoc Converter/Editor",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
+  "main": "./assets/index.js",
+  "scripts": {
+    "watch": "npx parcel watch -d ./public --no-cache --no-source-maps --no-hmr ./assets/index.html",
+    "build": "npx parcel build -d ./public --no-cache --no-source-maps ./assets/index.html",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.5.1",
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.16.1",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "spectre.css": "^0.5.8",
+    "uuid": "^3.3.2",
+    "vue": "^2.5.22"
+  }
+}

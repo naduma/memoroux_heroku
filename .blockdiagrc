@@ -1,0 +1,12 @@
+[blockdiag]
+fontpath = /app/.fonts/ipaexg.ttf
+[seqdiag]
+fontpath = /app/.fonts/ipaexg.ttf
+[actdiag]
+fontpath = /app/.fonts/ipaexg.ttf
+[nwdiag]
+fontpath = /app/.fonts/ipaexg.ttf
+[rackdiag]
+fontpath = /app/.fonts/ipaexg.ttf
+[packetdiag]
+fontpath = /app/.fonts/ipaexg.ttf

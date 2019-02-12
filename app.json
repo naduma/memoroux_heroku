@@ -1,0 +1,31 @@
+{
+  "name": "memoroux",
+  "description": "AsciiDoc Converter/Editor",
+  "repository": "https://github.com/naduma/memoroux",
+  "success_url": "/",
+  "env": {
+    "RACK_ENV": "PRODUCTION",
+    "TZ": "Asia/Tokyo",
+    "PARCEL_WORKERS": "1"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/weibeld/heroku-buildpack-graphviz"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-jvm-common"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
